@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!-- Should be only links to per-version cumulative changelog files. -->
+    <changeSet id="2" author="vik" runOnChange="true">
+        <createTable tableName="daily_domains">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="domainname" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="hotness" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="price" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="x_value" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="tic" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="links" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="visitors" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="registrar" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="old" type="INTEGER">
+                <constraints nullable="true"/>
+            </column>
+            <column name="delete_date" type="VARCHAR(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="rkn" type="BOOLEAN">
+                <constraints nullable="true"/>
+            </column>
+            <column name="judicial" type="BOOLEAN">
+                <constraints nullable="true"/>
+            </column>
+            <column name="block" type="BOOLEAN">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

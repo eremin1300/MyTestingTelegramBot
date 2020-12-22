@@ -1,0 +1,280 @@
+2020-12-22 14:22:41.342  INFO 3884 --- [main] vik.test.App                             : Starting App on srv1300 with PID 3884 (D:\TelegramBotBase-master\MyTelegramBot\target\classes started by Света и Витя in D:\TelegramBotBase-master\MyTelegramBot)
+2020-12-22 14:22:41.347  INFO 3884 --- [main] vik.test.App                             : No active profile set, falling back to default profiles: default
+2020-12-22 14:22:42.778  INFO 3884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22 14:22:42.871  INFO 3884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2020-12-22 14:22:43.830  INFO 3884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 14:22:43.960  INFO 3884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 14:22:44.801  INFO 3884 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2020-12-22 14:22:45.473  INFO 3884 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2020-12-22 14:22:45.620  INFO 3884 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2020-12-22 14:22:45.770  INFO 3884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-22 14:22:45.887  INFO 3884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.1.Final}
+2020-12-22 14:22:45.890  INFO 3884 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-22 14:22:45.898  INFO 3884 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-12-22 14:22:45.966  INFO 3884 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-22 14:22:46.110  INFO 3884 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-22 14:22:46.136  INFO 3884 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-12-22 14:22:46.139  INFO 3884 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5cfed0ba
+2020-12-22 14:22:46.942  INFO 3884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22 14:22:48.273  INFO 3884 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Starting auto config for telegram bots
+2020-12-22 14:22:48.300  INFO 3884 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Initializing API without webhook support
+2020-12-22 14:22:48.303  INFO 3884 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Registering polling bot: myfirsttesting_bot
+2020-12-22 14:22:49.166  INFO 3884 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 14:22:49.394  INFO 3884 --- [main] vik.test.App                             : Started App in 9.023 seconds (JVM running for 10.029)
+2020-12-22 14:24:29.683  INFO 1212 --- [main] vik.test.App                             : Starting App on srv1300 with PID 1212 (D:\TelegramBotBase-master\MyTelegramBot\target\classes started by Света и Витя in D:\TelegramBotBase-master\MyTelegramBot)
+2020-12-22 14:24:29.687  INFO 1212 --- [main] vik.test.App                             : No active profile set, falling back to default profiles: default
+2020-12-22 14:24:30.768  INFO 1212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22 14:24:31.011  INFO 1212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 214 ms. Found 3 JPA repository interfaces.
+2020-12-22 14:24:32.027  INFO 1212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 14:24:32.197  INFO 1212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 14:24:32.918  INFO 1212 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2020-12-22 14:24:33.470  INFO 1212 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2020-12-22 14:24:33.594  INFO 1212 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2020-12-22 14:24:33.685  INFO 1212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-22 14:24:33.806  INFO 1212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.1.Final}
+2020-12-22 14:24:33.809  INFO 1212 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-22 14:24:33.819  INFO 1212 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-12-22 14:24:33.907  INFO 1212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-22 14:24:34.066  INFO 1212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-22 14:24:34.088  INFO 1212 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-12-22 14:24:34.090  INFO 1212 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b0d3a63
+2020-12-22 14:24:34.767  INFO 1212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22 14:24:36.168  INFO 1212 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Starting auto config for telegram bots
+2020-12-22 14:24:36.182  INFO 1212 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Initializing API without webhook support
+2020-12-22 14:24:36.184  INFO 1212 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Registering polling bot: myfirsttesting_bot
+2020-12-22 14:24:36.962  INFO 1212 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 14:24:37.035  INFO 1212 --- [main] vik.test.App                             : Started App in 8.094 seconds (JVM running for 8.889)
+2020-12-22 14:25:58.774  INFO 7808 --- [main] vik.test.App                             : Starting App on srv1300 with PID 7808 (D:\TelegramBotBase-master\MyTelegramBot\target\classes started by Света и Витя in D:\TelegramBotBase-master\MyTelegramBot)
+2020-12-22 14:25:58.777  INFO 7808 --- [main] vik.test.App                             : No active profile set, falling back to default profiles: default
+2020-12-22 14:25:59.905  INFO 7808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22 14:26:00.003  INFO 7808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2020-12-22 14:26:00.949  INFO 7808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 14:26:01.134  INFO 7808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 14:26:01.936  INFO 7808 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2020-12-22 14:26:02.562  INFO 7808 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2020-12-22 14:26:02.686  INFO 7808 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2020-12-22 14:26:02.788  INFO 7808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-22 14:26:02.902  INFO 7808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.1.Final}
+2020-12-22 14:26:02.903  INFO 7808 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-22 14:26:02.908  INFO 7808 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-12-22 14:26:02.991  INFO 7808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-22 14:26:03.200  INFO 7808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-22 14:26:03.233  INFO 7808 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-12-22 14:26:03.239  INFO 7808 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c453c34
+2020-12-22 14:26:04.390  INFO 7808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22 14:26:06.406  INFO 7808 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Starting auto config for telegram bots
+2020-12-22 14:26:06.438  INFO 7808 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Initializing API without webhook support
+2020-12-22 14:26:06.440  INFO 7808 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Registering polling bot: myfirsttesting_bot
+2020-12-22 14:26:07.334  INFO 7808 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 14:26:07.468  INFO 7808 --- [main] vik.test.App                             : Started App in 9.442 seconds (JVM running for 10.261)
+2020-12-22 14:26:07.576  INFO 7808 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-22 14:27:29.318  INFO 16208 --- [main] vik.test.App                             : Starting App on srv1300 with PID 16208 (D:\TelegramBotBase-master\MyTelegramBot\target\classes started by Света и Витя in D:\TelegramBotBase-master\MyTelegramBot)
+2020-12-22 14:27:29.322  INFO 16208 --- [main] vik.test.App                             : No active profile set, falling back to default profiles: default
+2020-12-22 14:27:30.394  INFO 16208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22 14:27:30.524  INFO 16208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 3 JPA repository interfaces.
+2020-12-22 14:27:31.567  INFO 16208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 14:27:31.700  INFO 16208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 14:27:32.319  INFO 16208 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2020-12-22 14:27:32.906  INFO 16208 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2020-12-22 14:27:33.049  INFO 16208 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2020-12-22 14:27:33.127  INFO 16208 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-22 14:27:33.221  INFO 16208 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.1.Final}
+2020-12-22 14:27:33.223  INFO 16208 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-22 14:27:33.228  INFO 16208 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-12-22 14:27:33.288  INFO 16208 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-22 14:27:33.428  INFO 16208 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-22 14:27:33.449  INFO 16208 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-12-22 14:27:33.451  INFO 16208 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@538a2f0e
+2020-12-22 14:27:34.084  INFO 16208 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22 14:27:35.413  INFO 16208 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Starting auto config for telegram bots
+2020-12-22 14:27:35.461  INFO 16208 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Initializing API without webhook support
+2020-12-22 14:27:35.463  INFO 16208 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Registering polling bot: myfirsttesting_bot
+2020-12-22 14:27:36.337  INFO 16208 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 14:27:36.405  INFO 16208 --- [scheduling-1] vik.test.App                             : Start downloading domains
+2020-12-22 14:27:36.408  INFO 16208 --- [main] vik.test.App                             : Started App in 8.028 seconds (JVM running for 8.872)
+2020-12-22 14:27:36.442  INFO 16208 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-12-22 16:55:12.075 ERROR 16208 --- [myfirsttesting_bot Telegram Connection] o.t.t.u.DefaultBotSession                : Connection reset
+
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:325)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:268)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:263)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1654)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:253)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:194)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1052)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
+		... 22 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:982)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:457)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1411)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 18 common frames omitted
+
+2020-12-22 17:36:01.963 ERROR 16208 --- [myfirsttesting_bot Telegram Connection] o.t.t.u.DefaultBotSession                : Этот хост неизвестен (api.telegram.org)
+
+java.net.UnknownHostException: Этот хост неизвестен (api.telegram.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1505)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:253)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:194)
+
+2020-12-22 17:36:02.564 ERROR 16208 --- [myfirsttesting_bot Telegram Connection] o.t.t.u.DefaultBotSession                : api.telegram.org
+
+java.net.UnknownHostException: api.telegram.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:253)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:194)
+
+2020-12-22 17:36:03.701 ERROR 16208 --- [myfirsttesting_bot Telegram Connection] o.t.t.u.DefaultBotSession                : api.telegram.org
+
+java.net.UnknownHostException: api.telegram.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:253)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:194)
+
+2020-12-22 17:36:05.192 ERROR 16208 --- [myfirsttesting_bot Telegram Connection] o.t.t.u.DefaultBotSession                : api.telegram.org
+
+java.net.UnknownHostException: api.telegram.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:253)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:194)
+
+2020-12-22 17:36:09.231 ERROR 16208 --- [myfirsttesting_bot Telegram Connection] o.t.t.u.DefaultBotSession                : api.telegram.org
+
+java.net.UnknownHostException: api.telegram.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1495)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1354)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1288)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:253)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:194)
+
+2020-12-22 17:36:12.420  WARN 16208 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m10s239ms693µs700ns).
+2020-12-22 17:46:47.046  INFO 832 --- [main] vik.test.App                             : Starting App on srv1300 with PID 832 (D:\TelegramBotBase-master\MyTelegramBot\target\classes started by Света и Витя in D:\TelegramBotBase-master\MyTelegramBot)
+2020-12-22 17:46:47.049  INFO 832 --- [main] vik.test.App                             : No active profile set, falling back to default profiles: default
+2020-12-22 17:46:48.086  INFO 832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22 17:46:48.184  INFO 832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2020-12-22 17:46:48.927  INFO 832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 17:46:49.150  INFO 832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 17:46:49.931  INFO 832 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2020-12-22 17:46:50.461  INFO 832 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2020-12-22 17:46:50.590  INFO 832 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2020-12-22 17:46:50.729  INFO 832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-22 17:46:50.817  INFO 832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.1.Final}
+2020-12-22 17:46:50.819  INFO 832 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-22 17:46:50.824  INFO 832 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-12-22 17:46:50.889  INFO 832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-22 17:46:51.048  INFO 832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-22 17:46:51.082  INFO 832 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-12-22 17:46:51.087  INFO 832 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@496cc217
+2020-12-22 17:46:51.779  INFO 832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22 17:46:53.073  INFO 832 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Starting auto config for telegram bots
+2020-12-22 17:46:53.097  INFO 832 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Initializing API without webhook support
+2020-12-22 17:46:53.099  INFO 832 --- [main] c.g.x.bots.TelegramBotAutoConfiguration  : Registering polling bot: myfirsttesting_bot
+2020-12-22 17:46:53.914  INFO 832 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 17:46:53.996  INFO 832 --- [scheduling-1] vik.test.App                             : Start downloading domains
+2020-12-22 17:46:53.998  INFO 832 --- [main] vik.test.App                             : Started App in 7.628 seconds (JVM running for 8.387)
+2020-12-22 17:46:54.032  INFO 832 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
